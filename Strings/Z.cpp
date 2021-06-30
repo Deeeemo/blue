@@ -25,10 +25,10 @@ vector<int> get_z(string s) {
 }
 
 int main(){
-	string s; cin >> s;
+    string s; cin >> s;
     auto z = get_z(s);
     for (auto x: z)
         cout << x << " ";
     cout << "\n";
-	return 0;
+    return 0;
 }
